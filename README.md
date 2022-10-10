@@ -1,7 +1,7 @@
 # Software Carpentry - Student materials
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mwakok/software_carpentry_student/binder)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mwakok/software_carpentry_learner/binder)
 
 ## Content
 Collection of student materials for a Software Carpentries workshop. These materials are adaptations from the lessons provided by the [Software Carpentry](https://software-carpentry.org/lessons/).
