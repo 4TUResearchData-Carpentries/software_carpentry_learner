@@ -5,4 +5,4 @@ print('verbose:', months[0:12:2])
 print('short-hand:', months[::2])
 
 # List reversal
-print('reversed list:', months[::-1]) # verbose: months[12:0:-1]
+print('reversed list:', months[::-1]) # Note the difference with months[12:0:-1]
