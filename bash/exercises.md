@@ -23,24 +23,25 @@ Hint: You may need to use the -l option to see the last changed dates.
 
 Starting from /Users/nelle/data, which of the following commands could Nelle use to navigate to her home directory, which is /Users/nelle?
 
-cd .
-cd /
-cd /home/nelle
-cd ../..
-cd ~
-cd home
-cd ~/data/..
-cd
-cd ..
+1. cd .
+2. cd /
+3. cd /home/nelle
+4. cd ../..
+5. cd ~
+6. cd home
+7. cd ~/data/..
+8. cd
+9. cd ..
 
 ### Exercise 4: Relative Path Resolution
 
 Using the filesystem diagram below, if pwd displays /Users/thing, what will ls -F ../backup display?
 ![Diagram of filesystem hierarchy](./filesystem-challenge.svg)
-../backup: No such file or directory
-2012-12-01 2013-01-08 2013-01-27
-2012-12-01/ 2013-01-08/ 2013-01-27/
-original/ pnas_final/ pnas_sub/
+
+1. ../backup: No such file or directory
+2. 2012-12-01 2013-01-08 2013-01-27
+3. 2012-12-01/ 2013-01-08/ 2013-01-27/
+4. original/ pnas_final/ pnas_sub/
 
 ### Exercise 5: ls Reading Comprehension
 
@@ -52,6 +53,6 @@ will result in the following output:
 
 ![Diagram of second filesystem hierarchy](./filesystem-challenge-2.svg)
 
-ls pwd
-ls -r -F
-ls -r -F /Users/backup
+1. ls pwd
+2. ls -r -F
+3. ls -r -F /Users/backup
