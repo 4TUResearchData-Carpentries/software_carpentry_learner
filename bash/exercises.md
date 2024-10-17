@@ -36,7 +36,7 @@ Starting from /Users/nelle/data, which of the following commands could Nelle use
 ### Exercise 4: Relative Path Resolution
 
 Using the filesystem diagram below, if pwd displays /Users/thing, what will ls -F ../backup display?
-![Diagram of filesystem hierarchy](./filesystem-challenge.svg)
+![Diagram of filesystem hierarchy](./img/filesystem-challenge.svg)
 
 1. ../backup: No such file or directory
 2. 2012-12-01 2013-01-08 2013-01-27
@@ -51,7 +51,7 @@ will result in the following output:
 
     pnas_sub/ pnas_final/ original/
 
-![Diagram of second filesystem hierarchy](./filesystem-challenge-2.svg)
+![Diagram of second filesystem hierarchy](./img/filesystem-challenge-2.svg)
 
 1. ls pwd
 2. ls -r -F
