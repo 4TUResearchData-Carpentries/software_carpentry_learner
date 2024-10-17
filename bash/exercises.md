@@ -36,7 +36,7 @@ cd ..
 ### Exercise 4: Relative Path Resolution
 
 Using the filesystem diagram below, if pwd displays /Users/thing, what will ls -F ../backup display?
-
+![Diagram of filesystem hierarchy](./filesystem-challenge.svg)
 ../backup: No such file or directory
 2012-12-01 2013-01-08 2013-01-27
 2012-12-01/ 2013-01-08/ 2013-01-27/
@@ -49,6 +49,8 @@ and -r tells ls to display things in reverse order, what command(s)
 will result in the following output:
 
     pnas_sub/ pnas_final/ original/
+
+![Diagram of second filesystem hierarchy](./filesystem-challenge-2.svg)
 
 ls pwd
 ls -r -F
