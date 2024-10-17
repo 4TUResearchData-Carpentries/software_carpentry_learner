@@ -1,3 +1,5 @@
+# Participant Exercises in Software Carpentry: The Unix Shell
+
 ## Section 2: Introducing The Shell
 
 ### Exercise 1: Exploring More ls Options
