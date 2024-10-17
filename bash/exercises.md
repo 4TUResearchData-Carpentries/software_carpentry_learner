@@ -4,7 +4,7 @@
 
 ### Exercise 1: Exploring More ls Options
 
-You can also use two options at the same time. 
+Like many shell commands, ls can also use two options at the same time. 
 What does the command ls do when used with the -l option?
 What about if you use both the -l and the -h option?
 
