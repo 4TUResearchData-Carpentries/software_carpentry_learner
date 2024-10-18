@@ -118,3 +118,46 @@ The fourth set of commands achieve this objective. Remember, the -p option, foll
 
 The final set of commands generates the ‘raw’ and ‘processed’ directories at the same level as the ‘data’ directory.
 
+## Section 4: Pipes And Filters
+
+### Exercise 1: What Does sort -n Do?
+
+The -n option specifies a numerical rather than an alphanumerical sort.
+
+### Exercise 2: What Does >> Mean?
+
+In the first example with >, the string ‘hello’ is written to testfile01.txt, but the file gets overwritten each time we run the command.
+
+We see from the second example that the >> operator also writes ‘hello’ to a file (in this case testfile02.txt), but appends the string to the file if it already exists (i.e. when we run it for the second time).
+
+### Exercise 3: Appending Data
+
+Option 3 is correct. For option 1 to be correct we would only run the head command. For option 2 to be correct we would only run the tail command. For option 4 to be correct we would have to pipe the output of head into tail -n 2 by doing head -n 3 animals.csv | tail -n 2 > animals-subset.csv
+
+### Exercise 4: Piping Commands Together
+
+Option 4 is the solution. The pipe character | is used to connect the output from one command to the input of another. > is used to redirect standard output to a file. Try it in the shell-lesson-data/exercise-data/alkanes directory!
+
+### Exercise 5: Piping Reading Comprehension
+
+The head command extracts the first 5 lines from animals.csv. Then, the last 3 lines are extracted from the previous 5 by using the tail command. With the sort -r command those 3 lines are sorted in reverse order. Finally, the output is redirected to a file: final.txt. The content of this file can be checked by executing cat final.txt. The file should contain the following lines:
+
+    2012-11-06,rabbit,19
+    2012-11-06,deer,2
+    2012-11-05,raccoon,7
+
+### Exercise 6: Pipe Construction
+
+    $ cut -d , -f 2 animals.csv | sort | uniq
+
+### Exercise 7: Which Pipe?
+
+Option 4. is the correct answer. If you have difficulty understanding why, try running the commands, or sub-sections of the pipelines (make sure you are in the shell-lesson-data/exercise-data/animal-counts directory).
+
+### Exercise 8: Removing Unneeded Files
+
+1. This would remove .txt files with one-character names
+2. This is the correct answer
+3. The shell would expand * to match everything in the current directory, so the command would try to remove all matched files and an additional file called .txt
+4. The shell expands *.* to match all filenames containing at least one ., including the processed files (.txt) and raw files (.dat)
+
