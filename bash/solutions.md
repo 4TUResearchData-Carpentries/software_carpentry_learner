@@ -161,3 +161,70 @@ Option 4. is the correct answer. If you have difficulty understanding why, try r
 3. The shell would expand * to match everything in the current directory, so the command would try to remove all matched files and an additional file called .txt
 4. The shell expands *.* to match all filenames containing at least one ., including the processed files (.txt) and raw files (.dat)
 
+## Section 5: Loops
+
+### Exercise 1: Write Your Own Loop
+
+    $ for loop_variable in 0 1 2 3 4 5 6 7 8 9
+    > do
+    >     echo $loop_variable
+    > done
+
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+
+### Exercise 2: Variables In Loops
+
+The first code block gives the same output on each iteration through the loop. Bash expands the wildcard *.pdb within the loop body (as well as before the loop starts) to match all files ending in .pdb and then lists them using ls. The expanded loop would look like this:
+
+    $ for datafile in cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+    > do
+    >     ls cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+    > done
+
+    cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+    cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+    cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+    cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+    cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+    cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+    
+The second code block lists a different file on each loop iteration. The value of the datafile variable is evaluated using $datafile, and then listed using ls.
+
+### Exercise 3: Limiting Sets Of Files
+
+4 is the correct answer. * matches zero or more characters, so any file name starting with the letter c, followed by zero or more other characters will be matched.
+
+### Exercise 4: Limiting Sets Of Files (Continued)
+
+4 is the correct answer. * matches zero or more characters, so a file name with zero or more characters before a letter c and zero or more characters after the letter c will be matched.
+
+### Exercise 5: Saving To A File In A loop - Part One
+
+1. The text from each file in turn gets written to the alkanes.pdb file. However, the file gets overwritten on each loop iteration, so the final content of alkanes.pdb is the text from the propane.pdb file.
+
+### Exercise 6: Saving To A File In A loop - Part Two
+
+3 is the correct answer. >> appends to a file, rather than overwriting it with the redirected output from a command. Given the output from the cat command has been redirected, nothing is printed to the screen.
+
+### Exercise 7: Doing A Dry Run
+
+The second version is the one we want to run. This prints to screen everything enclosed in the quote marks, expanding the loop variable name because we have prefixed it with a dollar sign. It also does not modify nor create the file all.pdb, as the >> is treated literally as part of a string rather than as a redirection instruction.
+
+The first version appends the output from the command echo cat $datafile to the file, all.pdb. This file will just contain the list; cat cubane.pdb, cat ethane.pdb, cat methane.pdb etc.
+
+Try both versions for yourself to see the output! Be sure to open the all.pdb file to view its contents.
+
+### Exercise 8: Nested Loops
+
+We have a nested loop, i.e. contained within another loop, so for each species in the outer loop, the inner loop (the nested loop) iterates over the list of temperatures, and creates a new directory for each combination.
+
+Try running the code for yourself to see which directories are created!
