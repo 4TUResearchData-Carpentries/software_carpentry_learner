@@ -421,3 +421,122 @@ Suppose you want to delete your processed data files, and only keep your raw fil
 4. rm *.*
 
 
+## Section 5: Loops
+
+### Exercise 1: Write Your Own Loop
+
+How would you write a loop that echoes all 10 numbers from 0 to 9?
+
+### Exercise 2: Variables In Loops
+
+This exercise refers to the shell-lesson-data/exercise-data/alkanes directory. ls *.pdb gives the following output:
+
+    cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+What is the output of the following code?
+
+    $ for datafile in *.pdb
+    > do
+    >     ls *.pdb
+    > done
+Now, what is the output of the following code?
+
+    $ for datafile in *.pdb
+    > do
+    >     ls $datafile
+    > done
+Why do these two loops give different outputs?
+
+### Exercise 3: Limiting Sets Of Files
+
+What would be the output of running the following loop in the shell-lesson-data/exercise-data/alkanes directory?
+
+    $ for filename in c*
+    > do
+    >     ls $filename
+    > done
+
+1. No files are listed.
+2. All files are listed.
+3. Only cubane.pdb, octane.pdb and pentane.pdb are listed.
+4. Only cubane.pdb is listed.
+
+### Exercise 4: Limiting Sets Of Files (Continued)
+
+How would the output differ from using this command instead?
+
+    $ for filename in *c*
+    > do
+    >     ls $filename
+    > done
+
+1. The same files would be listed.
+2. All the files are listed this time.
+3. No files are listed this time.
+4. The files cubane.pdb and octane.pdb will be listed.
+5. Only the file octane.pdb will be listed.
+
+### Exercise 5: Saving To A File In A  Loop - Part One
+
+In the shell-lesson-data/exercise-data/alkanes directory, what is the effect of this loop?
+
+    for alkanes in *.pdb
+    do
+        echo $alkanes
+        cat $alkanes > alkanes.pdb
+    done
+
+1. Prints cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, pentane.pdb and propane.pdb, and the text from propane.pdb will be saved to a file called alkanes.pdb.
+2. Prints cubane.pdb, ethane.pdb, and methane.pdb, and the text from all three files would be concatenated and saved to a file called alkanes.pdb.
+3. Prints cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, and pentane.pdb, and the text from propane.pdb will be saved to a file called alkanes.pdb.
+4. None of the above.
+
+### Exercise 6: Saving To A File In A  Loop - Part Two
+
+Also in the shell-lesson-data/exercise-data/alkanes directory, what would be the output of the following loop?
+
+    for datafile in *.pdb
+    do
+        cat $datafile >> all.pdb
+    done
+    
+1. All of the text from cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, and pentane.pdb would be concatenated and saved to a file called all.pdb.
+2. The text from ethane.pdb will be saved to a file called all.pdb.
+3. All of the text from cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, pentane.pdb and propane.pdb would be concatenated and saved to a file called all.pdb.
+4. All of the text from cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, pentane.pdb and propane.pdb would be printed to the screen and saved to a file called all.pdb.
+
+### Exercise 7: Doing A Dry Run
+
+A loop is a way to do many things at once — or to make many mistakes at once if it does the wrong thing. One way to check what a loop would do is to echo the commands it would run instead of actually running them.
+
+Suppose we want to preview the commands the following loop will execute without actually running those commands:
+
+    $ for datafile in *.pdb
+    > do
+    >     cat $datafile >> all.pdb
+    > done
+What is the difference between the two loops below, and which one would we want to run?
+
+    # Version 1
+    $ for datafile in *.pdb
+    > do
+    >     echo cat $datafile >> all.pdb
+    > done
+
+
+    # Version 2
+    $ for datafile in *.pdb
+    > do
+    >     echo "cat $datafile >> all.pdb"
+    > done
+
+### Exercise 8: Nested Loops
+
+Suppose we want to set up a directory structure to organize some experiments measuring reaction rate constants with different compounds and different temperatures. What would be the result of the following code:
+
+    $ for species in cubane ethane methane
+    > do
+    >     for temperature in 25 30 37 40
+    >     do
+    >         mkdir $species-$temperature
+    >     done
+    > done
