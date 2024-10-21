@@ -288,3 +288,54 @@ Script 3 would print all the arguments to the script (i.e. all the .pdb files), 
 The -x option causes bash to run in debug mode. This prints out each command as it is run, which will help you to locate errors. 
 In this example, we can see that echo isn’t printing anything. 
 We have made a typo in the loop variable name, and the variable datfile doesn’t exist, hence returning an empty string.
+
+## Section 7: Finding Things
+
+### Exercise 1: Using grep
+
+The correct answer is 3, because the -w option looks only for whole-word matches. 
+The other options will also match ‘of’ when part of another word.
+
+### Exercise 2: Tracking A Species
+
+    grep -w $1 -r $2 | cut -d : -f 2 | cut -d , -f 1,3 > $1.txt
+Actually, you can swap the order of the two cut commands and it still works. At the command line, try changing the order of the cut commands, and have a look at the output from each step to see why this is the case.
+
+You would call the script above like this:
+
+    $ bash count-species.sh bear .
+
+### Exercise 3: Little Women
+
+    for sis in Jo Meg Beth Amy
+    do
+        echo $sis:
+        grep -ow $sis LittleWomen.txt | wc -l
+    done
+Alternative, slightly inferior solution:
+
+    for sis in Jo Meg Beth Amy
+    do
+        echo $sis:
+        grep -ocw $sis LittleWomen.txt
+    done
+This solution is inferior because grep -c only reports the number of lines matched. The total number of matches reported by this method will be lower if there is more than one match per line.
+
+Perceptive observers may have noticed that character names sometimes appear in all-uppercase in chapter titles 
+(e.g. ‘MEG GOES TO VANITY FAIR’). If you wanted to count these as well, you could add the -i option for case-insensitivity 
+(though in this case, it doesn’t affect the answer to which sister is mentioned most frequently).
+
+### Exercise 4: Matching And Subtracting
+
+Option 1 is correct. Putting the match expression in quotes prevents the shell expanding it, so it gets passed to the find command.
+
+Option 2 also works in this instance because the shell tries to expand *.dat but there are no *.dat files in the 
+current directory, so the wildcard expression gets passed to find. We first encountered this in episode 3.
+
+Option 3 is incorrect because it searches the contents of the files for lines which do not match ‘unicorn’, rather than searching the file names.
+
+### Exercise 5: find Pipeline Reading Comprehension
+
+1. Find all files with a .dat extension recursively from the current directory
+2. Count the number of lines each of these files contains
+3. Sort the output from step 2. numerically
