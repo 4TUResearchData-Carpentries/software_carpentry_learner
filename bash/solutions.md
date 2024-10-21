@@ -229,5 +229,62 @@ We have a nested loop, i.e. contained within another loop, so for each species i
 
 Try running the code for yourself to see which directories are created!
 
+## Section 6: Shell Scripts
 
+### Exercise 1: List Unique Species
 
+    # Script to find unique species in csv files where species is the second data field
+    # This script accepts any number of file names as command line arguments
+
+    # Loop over all files
+    for file in $@
+    do
+        echo "Unique species in $file:"
+        # Extract species names
+        cut -d , -f 2 $file | sort | uniq
+    done
+
+### Exercise 2: Why Record Commands In The History Before Running Them?
+
+If a command causes something to crash or hang, it might be useful to know what that command was, in order to investigate the problem. Were the command only be recorded after running it, we would not have a record of the last command run in the event of a crash.
+
+### Exercise 3: Variables In Shell Scripts
+
+The correct answer is 2.
+
+The special variables $1, $2 and $3 represent the command line arguments given to the script, such that the commands run are:
+
+    $ head -n 1 cubane.pdb ethane.pdb octane.pdb pentane.pdb propane.pdb
+    $ tail -n 1 cubane.pdb ethane.pdb octane.pdb pentane.pdb propane.pdb
+The shell does not expand '*.pdb' because it is enclosed by quote marks. As such, the first argument to the script is '*.pdb' which gets expanded within the script by head and tail.
+
+### Exercise 4: Find The Longest File With A Given Extension
+
+    # Shell script which takes two arguments:
+    #    1. a directory name
+    #    2. a file extension
+    # and prints the name of the file in that directory
+    # with the most lines which matches the file extension.
+
+    wc -l $1/*.$2 | sort -n | tail -n 2 | head -n 1
+The first part of the pipeline, wc -l $1/*.$2 | sort -n, counts the lines in each file and sorts them numerically (largest last). When there’s more than one file, wc also outputs a final summary line, giving the total number of lines across all files. We use tail -n 2 | head -n 1 to throw away this last line.
+
+With wc -l $1/*.$2 | sort -n | tail -n 1 we’ll see the final summary line: we can build our pipeline up in pieces to be sure we understand the output.
+
+### Exercise 5: Script Reading Comprehension
+
+In each case, the shell expands the wildcard in *.pdb before passing the resulting list of file names as arguments to the script.
+
+Script 1 would print out a list of all files containing a dot in their name. The arguments passed to the script are not actually used anywhere in the script.
+
+Script 2 would print the contents of the first 3 files with a .pdb file extension. $1, $2, and $3 refer to the first, second, and third argument respectively.
+
+Script 3 would print all the arguments to the script (i.e. all the .pdb files), followed by .pdb. $@ refers to all the arguments given to a shell script.
+
+    cubane.pdb ethane.pdb methane.pdb octane.pdb pentane.pdb propane.pdb.pdb
+
+### Exercise 6: Debugging Scripts
+
+The -x option causes bash to run in debug mode. This prints out each command as it is run, which will help you to locate errors. 
+In this example, we can see that echo isn’t printing anything. 
+We have made a typo in the loop variable name, and the variable datfile doesn’t exist, hence returning an empty string.
