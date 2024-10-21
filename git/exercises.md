@@ -27,3 +27,50 @@ Is the git init command, run inside the desserts subdirectory, required for trac
 Jimmy explains to Alfredo how a nested repository is redundant and may cause confusion down the road. 
 Alfredo would like to go back to a single git repository. How can Alfredo undo his last git init in the desserts subdirectory?
 
+## Section 4: Tracking Changes
+
+### Exercise 1: Choosing A Commit Message
+
+Which of the following commit messages would be most appropriate for the last commit made to guacamole.md?
+
+1. “Changes”
+2. “Changed lemon for lime”
+3. “Guacamole modified to the traditional recipe”
+
+### Exercise 2: Committing Changes To Git
+
+Which command(s) below would save the changes of myfile.txt to my local Git repository?
+
+**1**
+
+    $ git commit -m "my recent changes"
+
+**2**
+
+    $ git init myfile.txt
+    $ git commit -m "my recent changes"
+
+**3**
+
+    $ git add myfile.txt
+    $ git commit -m "my recent changes"
+
+**4**
+
+    $ git commit -m myfile.txt "my recent changes"
+
+
+### Exercise 3: Committing Multiple Files
+
+The staging area can hold changes from any number of files that you want to commit as a single snapshot.
+
+1. Add some text to guacamole.md noting the rough price of the ingredients.
+2. Create a new file groceries.md with a list of products and their prices for different markets.
+3. Add changes from both files to the staging area, and commit those changes.
+
+### Exercise 4: bio Repository
+
+- Create a new Git repository on your computer called bio.
+- Write a three-line biography for yourself in a file called me.txt, commit your changes
+- Modify one line, add a fourth line
+- Display the differences between its updated state and its original state.
