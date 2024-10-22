@@ -4,7 +4,7 @@
 
 ## Branching policy.
 
-This is the *main* branch.  It does not correspond to any actual run of this course.  You probably want to be looking at the branch corresponding to the actual run of the course that you are attending.
+This is the *2024-11-11-tudelft* branch.  It corresponds to run of this course at Delft University Of Technology starting on 11 November 2024. Please ensure that you are looking at the branch corresponding to the correct course.
 
 ## Content
 Collection of learner materials for a Software Carpentries workshop. These materials are adaptations from the lessons provided by the [Software Carpentry](https://software-carpentry.org/lessons/).
