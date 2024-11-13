@@ -1,0 +1,5 @@
+git reset --hard
+git diff
+tail -f ~/repos/software_carpentry_learner/bash/type_along_log.txt | nl -w 3
+clear
+gitautopush ~/repos/software_carpentry_learner/bash/type_along_log.txt --sleep 5
