@@ -6,3 +6,80 @@ gitautopush ~/repos/software_carpentry_learner/bash/type_along_log.txt --sleep 5
 echo "--- Ignore commands above this one ---"
 cd
 cleae
+clear
+ls
+tail -f ~/repos/software_carpentry_learner/bash/type_along_log.txt | nl -w 3
+clear
+gitautopush ~/repos/software_carpentry_learner --sleep 5
+clear
+echo hi
+clear
+echo "--- Ignore everything above this line ----"
+ls
+ls -F /
+clear
+pwd
+ls
+cd
+pwd
+ls
+cd Desktop
+ls
+ls
+cd shell-lesson-data
+pwd
+man ls
+man ls
+ls --help
+clear
+ls
+cd exercise-data
+ls
+cd alkaanes
+cd shell-lesson-data
+cd ..
+cd ..
+cd -
+cd
+pwd
+cd
+cd Desktop/shell-lesson-data
+cd -
+cd -
+pwd
+cd exercise-data/writing
+ls
+mkdir thesis
+ls
+mkdir -p ./thesis/projects/data
+mkdir ./thesis/results/data
+mkdir ./thesis/results/data
+mkdir -p ./thesis/results/data
+ls -r thesis
+ls thesis
+ls thesis/projects
+pwd
+cd thesis
+nano draft.txt
+nano draft.txt
+cat draft.txt
+touch finalfinaldraft.txt
+ls
+pwd
+cd ..
+pwd
+touch quotes.txt
+ls
+mv quotes.txt thesis
+ls thesis
+mv thesis/quotes.txt thesis/citations.txt
+ls thesis
+clear
+cd repos
+cd software_carpentry_learner/bash
+ls
+git statis
+git status
+git diff
+git status
+git push origin type_along_txtx
