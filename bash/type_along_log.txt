@@ -174,3 +174,109 @@ cat results2.txt
 cd repos/software_carpentry_learner/bash/
 ls
 git status
+git add type_along_log.txt 
+git log
+git commit -m "Add type along second session"
+git push origin
+pwd
+ls\
+ls\
+history
+cat results.txt
+clear
+ls
+rm results*
+ls
+wc cubane.pdb 
+wc -l cubane.pdb
+wc -w cubane.pdb
+wc -m cubane.pdb
+wc *.pdb
+wc -l *.pdb > lengths.txt
+ls
+cat lengths.txt 
+wc -l -w *.pdb > lengths.txt
+cat lengths.txt
+wc -m *.pdb > lengths.txt
+cat lengths.txt
+wc -l *.pdb >> lengths.txt
+cat lengths.txt 
+ls
+ls ..
+cd ..
+pwd
+cat numbers.txt
+sort numbers.txt
+sort -n numbers.txt
+cat alkanes/lengths.txt
+sort -n lengths.txt
+sort -n alkanes/lengths.txt
+head alkanes/lengths.txt 
+head -n 3 alkanes/lengths.txt
+tail alkanes/lengths.txt
+tail -n 1 alkanes/lengths.txt 
+echo "The echo commamd prints text"
+echo "The echo commamd prints text" > testfile.txt
+cat testfile.txt 
+clear
+ls
+cd alkanes/
+ls
+clear
+pwd
+pwd
+ls
+rm lengths.txt
+ls
+wc -l *.pdb > lengths.txt
+cat lengths.txt
+sort -n lengths.txt > sorted_lengths.txt
+cat sorted_lengths.txt
+cat lengths.txt
+head -n 1 sorted_lengths.txt
+head -n 1 sorted_lengths.txt > smallest.txt
+cat smallest.txt 
+ls
+wc -l *.pdb | sort -n | head -n 1
+wc -l *.pdb | sort -n | head -n 1 > smallestpdb.txt
+cat smallestpdb.txt 
+cat methane.pdb 
+head -n 2 *.pdb | tail -n 1 >authors.txt
+cat authors.txt 
+clear
+cat octane.pdb 
+clear
+for fruit in apple pear mango; do echo $fruit; done
+pwd
+cd ..
+cd creatures
+ls
+pwd
+ls
+for filename in basilisk.dat minotaur.dat unicorn.dat ; do echo $filename; head -n 2 $filename | tail -n 1; done
+clear
+for filename in *.dat; do echo $filename; head -n 2 $filename | tail -n 1 >>classifications.txt; done
+ls
+cat classifications.txt 
+touch script.sh
+ls
+nano script.sh
+cat script.sh
+bash script.sh
+nano script.sh
+bash script.sh basilisk.dat unicorn.dat 
+nano script.sh
+bash script.sh basilisk.dat
+bash script.sh basilisk.dat minotaur.dat 
+bash script.sh basilisk.dat minotaur.dat unicorn.dat 
+touch processing.sh
+nano processing.sh
+nano script.sh
+bash script.sh basilisk.dat minotaur.dat unicorn.dat 
+clear
+cat script.sh 
+bash script.sh basilisk.dat minotaur.dat unicorn.dat 
+bash script.sh basilisk.dat
+tail -f ~/repos/software_carpentry_learner/bash/type_along_log.txt | nl -w 3
+cd repos/software_carpentry_learner/bash/
+git status
