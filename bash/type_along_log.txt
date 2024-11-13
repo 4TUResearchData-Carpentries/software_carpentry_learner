@@ -5,3 +5,4 @@ clear
 gitautopush ~/repos/software_carpentry_learner/bash/type_along_log.txt --sleep 5
 echo "--- Ignore commands above this one ---"
 cd
+cleae
