@@ -83,3 +83,94 @@ git status
 git diff
 git status
 git push origin type_along_txtx
+git add type_along_log.txt 
+git push origin type_along_log.txt
+clear
+git status
+git commit -m "Add type along first session"
+git push origin
+clear
+pwd
+ls
+ls thesis
+cd thesis
+mkdir paper
+ls
+mv finalfinaldraft.txt paper
+ls
+cp citations.txt paper/
+ls
+ls paper
+cp citations.txt citations-copy.txt
+ls
+pwd
+cd ..
+pwd
+man ls
+man cp
+cp -r thesis ./thesis-backup
+ls
+ls thesis
+ls thesis-backup/
+ls
+cd thesis
+ls
+rm citations-copy.txt 
+ls
+cd
+pwd
+cd -
+ls
+rm -r *
+ls
+cd ..
+ls
+rm thesis-backup/
+rmdir
+rmdir thesis-backup/
+rm -r thesis-backup
+ls
+ls thesis
+rmdir thesis
+ls
+mkdir test
+cd test
+touch hello.txt
+touch goodbye.txt
+cd ..
+ls
+cd test
+ls
+rm -r .
+rm -r *
+ls
+cd ..
+pwd
+ls
+cd test
+ls
+touch data1.txt
+touch results1.txt
+ls
+cp *1.txt *2.txt
+mkdir paper
+cp *1.txt paper
+ls paper
+pwd
+cd ../../alkanes/
+pwd
+ls
+ls *t*ane.pdb
+ls ethane.*
+ls *ethane.*
+nano results.txt
+ls
+cat results.txt 
+nano results.txt
+ls
+cat results.txt
+results2.txt
+cat results2.txt 
+cd repos/software_carpentry_learner/bash/
+ls
+git status
