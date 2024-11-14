@@ -131,3 +131,14 @@ git status
 git commit -m 'added sandwich and final.csv'
 git log --oneline
 start .
+git push
+git pull
+cd ../NewRecipes/
+git init
+git remote add origin git@github.com:alextremo0205/NewRecipes.git
+nano new_recipe_1.txt
+git status
+git add .
+git commit -m 'add first recipe'
+git push
+git push -u origin main
