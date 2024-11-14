@@ -38,3 +38,4 @@ ls
 git log --oneline
 git log --oneline
 git status
+git diff 
