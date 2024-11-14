@@ -39,3 +39,78 @@ git log --oneline
 git log --oneline
 git status
 git diff 
+git diff HEAD guacamole.txt
+git diff HEAD~1 guacamole.txt
+git diff HEAD~2 guacamole.txt
+git log --oneline
+git diff 60c5e33 d9627b5
+git diff d9627b5 60c5e33
+git diff HEAD~3 guacamole.txt
+git diff HEAD~3 HEAD guacamole.txt
+git log --oneline
+git show d9627b5:guacamole.txt 
+git show 29ab510
+git status
+git diff
+git commit -m "Added a change I thought it was good"
+git add guacamole.txt 
+git commit -m 'A change I considered good'
+cat guacamole.txt 
+git checkout HEAD~1 guacamole.txt
+cat guacamole.txt 
+git status
+git diff
+git diff --staged
+git checkout HEAD guacamole.txt
+cat guacamole.txt 
+git log --oneline
+git checkout cd9d02a guacamole.txt
+cat guacamole.txt 
+git checkout 60c5e33 guacamole.txt
+cat guacamole.txt 
+git commit -m "Fixing the guacamole"
+git log --oneline
+git log --oneline
+git checkout f55e5f0
+git log --oneline
+git checkout HEAD
+git switch -
+git status
+git add .
+git commit -m 'guacamole made more tasty'
+cat guacamole.txt 
+git log --oneline
+git revert 882966f
+git log --oneline
+cat guacamole.txt 
+git status
+git status
+git add guacamole.txt 
+git diff --staged
+git reset
+git status
+git add guacamole.txt 
+git status
+git commit -m 'Orange error'
+git status
+git add .
+git commit -m 'Fixed Oranges error'
+git log --oneline
+mkdir results
+touch a.csv b.csv c.csv results/a.out results/b.out
+git status
+nano .gitignore
+git status
+nano .gitignore
+git status
+git add .gitignore 
+git commit -m 'Created the .gitignore file'
+git log --oneline
+git status
+nano .gitignore
+git status
+touch final.csv
+nano .gitignore
+git status
+cat .gitignore 
+ssh-keygen -t ed25519 -C "j.a.garzondiaz@tudelft.nl"
