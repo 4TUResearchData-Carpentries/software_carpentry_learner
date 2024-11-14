@@ -5,3 +5,4 @@ ls -a
 rm -r .git/
 git init
 nano guacamole.txt
+ls
