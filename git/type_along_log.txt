@@ -37,3 +37,4 @@ git log --oneline burritos.txt
 ls
 git log --oneline
 git log --oneline
+git status
