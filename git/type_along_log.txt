@@ -7,3 +7,10 @@ git init
 nano guacamole.txt
 ls
 git status
+git add guacamole.txt
+git status
+git commit
+git status
+git add guacamole.txt
+git commit -m "Added ingredients of Guacamole"
+git log
