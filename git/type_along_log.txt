@@ -114,3 +114,4 @@ nano .gitignore
 git status
 cat .gitignore 
 ssh-keygen -t ed25519 -C "j.a.garzondiaz@tudelft.nl"
+ls /h//.ssh/
