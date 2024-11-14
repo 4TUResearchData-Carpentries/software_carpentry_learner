@@ -1,1 +1,7 @@
 echo "test"
+echo "test2"
+echo "test2"
+ls -a
+rm -r .git/
+git init
+nano guacamole.txt
