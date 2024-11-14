@@ -127,3 +127,6 @@ git push -u origin main
 nano sandwich.txt
 git status
 git add .
+git status
+git commit -m 'added sandwich and final.csv'
+git log --oneline
