@@ -15,3 +15,25 @@ git add guacamole.txt
 git commit -m "Added ingredients of Guacamole"
 git log
 git status
+git add .
+git status
+git commit -m "Added the detailed procedure"
+git log
+git status
+git diff
+git status
+git diff
+git add guacamole.txt 
+git diff
+git diff --staged
+git log
+git log --oneline
+git status
+git commit -m 'Made the recipe better'
+git add burritos.txt 
+git commit -m 'Created burritos'
+git log --oneline
+git log --oneline burritos.txt
+ls
+git log --oneline
+git log --oneline
