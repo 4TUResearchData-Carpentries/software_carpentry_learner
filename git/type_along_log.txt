@@ -14,3 +14,4 @@ git status
 git add guacamole.txt
 git commit -m "Added ingredients of Guacamole"
 git log
+git status
