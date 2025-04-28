@@ -1,0 +1,39 @@
+cd Documents/
+tail -f ~/repos/software_carpentry_learner/bash/type_along_log.txt | nl -w 3
+echo "Hello"
+clear
+cd ..
+ls
+ls Desktop
+ls -F
+ks
+ls -FGK
+ls -FGK
+ls -happy
+clear
+pwd
+ls --help
+man ls
+ls
+cd Desktop
+pwd
+pwd
+ls shell-lesson-data
+ls
+cd shell-lesson-data
+pwd
+clear
+ls
+cd exercise-data/
+cd ..
+cd exercise-data/
+pwd
+cd ../../
+cd -
+cd
+cd repos/software_carpentry_learner/bash/
+ls
+cat type_along_log.txt 
+g
+clear
+git status
