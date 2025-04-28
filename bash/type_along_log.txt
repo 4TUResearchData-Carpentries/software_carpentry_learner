@@ -264,3 +264,39 @@ find . -type f -name ".dat"
 find . -type f -name "*.dat"
 find . -type f -name "*.txt"
 git status
+git add -u
+git push origin
+git push origin
+git commit -m "Update type_along_log.txt"
+git push origin
+cd 
+cd Desktop/
+cd shell-lesson-data
+ls
+cd north-pacific-gyre/
+ls
+ls analysis/
+ls analysis/results/
+ls
+ls
+cd creatures
+clear
+pwd
+nano count-lines.sh
+cat count-lines.sh 
+bash count-lines.sh basilisk.dat 
+nano count-lines.sh 
+bash count-lines.sh basilisk.dat
+bash count-lines.sh basilisk.dat unicorn.dat
+bash count-lines.sh basilisk.dat unicorn.dat minotaur.dat
+ls
+ls ..
+cd creatures
+bash count-lines.sh minotaur.dat ../numbers.txt
+cd ..
+ls
+bash creatures/count-lines.sh creatures/basilisk.dat 
+cd
+cd repos/software_carpentry_learner/bash/
+git status
+git log type_along_log.txt 
