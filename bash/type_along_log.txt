@@ -37,3 +37,36 @@ cat type_along_log.txt
 g
 clear
 git status
+git add type_along_log.txt 
+git commit -m "Update type_along_long.txt"
+git push origin
+clear
+ls
+cd writing
+mkdir phd
+ls
+mkdir phd/thesis
+ls phd
+mkdir -p phd/paper/figures
+ls phd/paper
+cd phd
+pwd
+mkdir paper2/figures2
+man mkdir
+touch draft.txt
+ls
+nano draft.txt
+mv draft.txt quotes.txt
+ls
+mv quotes.txt thesis/
+ls
+ls thesis
+mkdir chapter1
+ls
+mv chapter1/ thesis/
+ls
+ls thesis
+cp thesis/quotes.txt paper/
+ls paper
+ls thesis
+git status
