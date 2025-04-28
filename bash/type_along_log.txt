@@ -70,3 +70,197 @@ cp thesis/quotes.txt paper/
 ls paper
 ls thesis
 git status
+git add -u
+git commit -m "Update type_along_long.txt"
+git push origin
+pwd
+cd ../../../
+ls north-pacific-gyre/
+mkdir -p analysis/results/first-analisys
+mkdir analysis/data
+mkdir analysis/scripts
+ls analysis/
+ls analysis/results/
+ls 
+ls north-pacific-gyre/
+cd north-pacific-gyre/
+clear
+ls
+ls ..
+cd ..
+ls
+mv analysis/ north-pacific-gyre/
+ls
+ls north-pacific-gyre/
+cd north-pacific-gyre/
+mv *.txt analysis/data/
+ls
+ls analysis/data/
+mv *.sh analysis/scripts/
+ls
+mv analysis/scripts/goodiff.sh analysis/scripts/file-diff.sh
+ls analysis/scripts/
+cd analysis/
+cd results/
+ls
+ls first-analisys/
+rmdir first-analisys/
+ls
+pwd
+cd ..
+ls
+ls data
+rmdir data/
+rmdir -r data/
+rm -r data/
+ls
+rm -ri scripts/
+ls
+ls scripts/
+rm scripts/file-diff.sh
+ls
+ls scripts/
+pwd
+cd ../../
+cd exercise-data/alkanes/
+clear
+pwd
+ls
+wc cubane.pdb
+wc -n cubane.pdb
+wc -l cubane.pdb
+wc -w cubane.pdb
+wc -m cubane.pdb
+wc *.pdb
+wc -l *.pdb
+wc -l *.pdb > lengths.txt
+ls
+cat lengths.txt
+wc -w *.pdb > lengths.txt
+cat lengths.txt
+wc -l *.pdb >> lengths.txt
+cat lengths.txt
+cd ..
+ls
+cat numbers.txt
+sort numbers.txt
+sort -n numbers.txt
+cat numbers.txt 
+sort -nr numbers.txt 
+ls
+cd alkanes/
+ls
+wc -l *.pdb > lengths.txt
+cat lengths.txt 
+sort -n lengths.txt
+sort -n lengths.txt > sorted_lengths.txt
+cat sorted_lengths.txt 
+head -n 1 sorted_lengths.txt
+head -n 3 sorted_lengths.txt
+tail -n 1 sorted_lengths.txt
+tail -n 3 sorted_lengths.txt
+ls
+cat lengths.txt 
+sort -n lengths.txt > lengths.txt
+cat lengths.txt 
+clear
+echo Hello
+echo This command prints text
+echo This is my file! > file.txt
+ls
+cat file.txt 
+ls
+wc -l *.pdb | sort -n
+wc -l *.pdb | sort -n | head -n 1
+wc -l *.pdb | sort -n | head -n 1 > shortestpdb.txt
+cat shortestpdb.txt 
+cd ..
+ls
+cd animal-counts/
+ls
+cat animals.csv 
+cat animals.csv | head -n 5 | tail -n 3 | sort -r 
+clear
+for fruit in apple pear mango; do echo $fruit; done
+echo $fruit
+for fruit in apple pear mango; do echo $fruit; done
+pwd
+cd ..
+cd creatures/
+clear
+pwd
+la
+ls
+head -n 5 basilisk.dat minotaur.dat unicorn.dat 
+for filename in basilisk.dat minotaur.dat unicorn.dat ; do echo $filename; head -n 2 $filename | tail -n 1; done
+for chair in basilisk.dat minotaur.dat unicorn.dat ; do echo $filename; head -n 2 | tail -n 1; done
+for chair in basilisk.dat minotaur.dat unicorn.dat ; do echo $chair; head -n | tail -n 1; done
+for chair in basilisk.dat minotaur.dat unicorn.dat ; do echo $chair; head -n 2 | tail -n 1; done
+clear
+ls
+for chair in basilisk.dat minotaur.dat unicorn.dat ; do echo $chair; done
+for filename in *.dat; do echo $filename; head -n 2 | tail -n 1; done
+for filename in *.dat; do echo $filename; head -n 2 $filename | tail -n 1; done
+head -n 2 basilisk.dat 
+nano script.sh
+cat script.sh
+bash script.sh
+nano script.sh
+cat script.sh 
+bash script.sh basilisk.dat unicorn.dat
+bash script.sh basilisk.dat minotaur.dat 
+bash script.sh basilisk.dat
+nano script.sh
+cat script.sh 
+bash script.sh basilisk.dat
+bash script.sh basilisk.dat minotaur.dat 
+bash script.sh basilisk.dat minotaur.dat unicorn.dat
+nano script.sh 
+cat script.sh 
+bash script.sh basilisk.dat
+bash script.sh basilisk.dat minotaur.dat
+nano processing.sh
+cat processing.sh 
+nano script.sh
+cat script.sh
+clear
+cat script.sh 
+cat processing.sh 
+bash script.sh unicorn.dat 
+bash script.sh unicorn.dat basilisk.dat 
+bash script.sh unicorn.dat basilisk.dat minotaur.dat 
+clear
+cat script.sh 
+pwd
+cd ../../exercise-data/writing/
+pwd
+clear
+pwd
+ls
+cat haiku.txt 
+grep not haiku.txt
+grep NOT haiku.txt
+grep Not haiku.txt
+grep The haiku.txt
+grep -w The haiku.txt 
+grep -w -n The haiku.txt 
+grep -w -n Thesis haiku.txt 
+grep -w -n -i thesis haiku.txt 
+grep -w -n thesis haiku.txt 
+grep -r Yesye
+grep -r Yesterday .
+grep -rn Yesterday .
+cd ..
+clear
+pwd
+find .
+find . -type d
+ls
+find . -type f
+clear
+find . -name ".txt"
+find . -name ".dat"
+find . -type f -name ".dat"
+find . -type f -name "*.dat"
+find . -type f -name "*.txt"
+git status
