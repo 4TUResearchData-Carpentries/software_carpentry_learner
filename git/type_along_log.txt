@@ -105,3 +105,16 @@ clear
 git status
 git restore guacamole.md 
 cat guacamole.md 
+git diff guacamole.md
+git status
+git log --oneline
+git restore -s ad04e5b guacamole.md 
+cat guacamole.md 
+git status
+git restore HEAD guacamole.md 
+git restore -s HEAD guacamole.md 
+cat guacamole.md 
+git status
+clear
+git log
+git log --oneline
