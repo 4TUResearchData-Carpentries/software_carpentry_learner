@@ -118,3 +118,56 @@ git status
 clear
 git log
 git log --oneline
+clear
+mkdir pictures
+touch a.png b.png pictures/cake1.png pictures/cake2.png
+ls
+ls pictures/
+clear
+git status
+nano .gitignore
+cat .gitignore 
+git status
+git add .gitignore 
+git commit -m "Ignoring png files and the pictures folder"
+git status
+clear
+git add a.png 
+clear
+git status --ignored
+cd pictures
+mkdir cats
+touch cat1.png cat2.png
+cd ..
+pwd
+git status
+clear
+ls
+cd pictures
+ls
+mv cat?.png cats/
+ls
+ls cats
+cd ..
+git status
+cat .gitignore 
+clear
+pwd
+clear
+ls
+ls -a
+clear
+cd pictures/
+ls
+touch tea.tiff coffee.tiff
+cd ..
+gigt status
+git status
+clear
+cat ~/.ssh/id_ed25519.pub 
+ssh -T git@github.com
+pwd
+git remote add origin git@github.com:halfordd/recipes.git
+git branch -M main
+git push -u origin main
+clear
