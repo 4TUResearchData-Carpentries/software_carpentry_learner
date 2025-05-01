@@ -86,3 +86,22 @@ git log
 git log --oneline
 clear
 clear
+git status
+nano guacamole.md 
+clear
+git diff HEAD guacamole.md
+git log --oneline
+git diff HEAD~1 guacamole.md
+git diff HEAD~2 guacamole.md
+clear
+git show HEAD~2 guacamole.md
+git show HEAD~3 guacamole.md
+clear
+git log
+git diff 87148a3288b776026ccb18616bcbb76f993cf7fe guacamole.md
+git log --oneline
+git diff ad04e5b guacamole.md
+clear
+git status
+git restore guacamole.md 
+cat guacamole.md 
