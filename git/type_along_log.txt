@@ -32,3 +32,33 @@ clear
 git config list
 git version
 clear
+nano guacamole.md
+ls
+cat guacamole.md 
+git status
+git add guacamole.md 
+git status
+clear
+git commit -m "Create initial outline for a guacamole recipe"
+git status
+ls
+clear
+git log
+cd guacamole.md 
+nano guacamole.md 
+git status
+clear
+git diff
+git commit -m "Add ingredients to base recipe"
+git add guacamole.md 
+git status
+git commit -m "Add ingredients to base recipe"
+git log
+nano guacamole.md 
+clea
+clear
+git status
+git diff
+ls
+git add guacamole.md 
+git diff
