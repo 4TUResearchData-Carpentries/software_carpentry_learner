@@ -1,1 +1,34 @@
 clear
+wd
+pwd
+cd OneDrive\ -\ Delft\ University\ of\ Technology/Desktop
+ls
+mkdir recipes
+rm -rf recipes
+clear
+mkdir recipes
+cd recipes
+pwd
+git
+clear
+git config --global user.name "Halford Dace"
+git config --global user.email "h.j.w.dace@tudelft.nl"
+git config --global core.editor nano
+git config --global core.autocrlf false
+git config --global init.defaultBranch main
+git config list
+git config --global init.defaultbranch main
+git config list
+clear
+git status
+ls
+ls -a
+git init
+clear
+ls
+ls -a
+ls .git
+clear
+git config list
+git version
+clear
