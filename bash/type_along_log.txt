@@ -1,3 +1,4 @@
 clear
 ls 
 pwd
+pwd # printing working directory
