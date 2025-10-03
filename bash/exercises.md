@@ -1,18 +1,18 @@
 # Participant Exercises in Software Carpentry: The Unix Shell
 
 
-## Exercise 1: Relative Path Resolution
+## Exercise 1: Relative Path Resolution 
 
-Using the filesystem diagram below, if pwd displays /Users/thing, what will ls -F ../backup display?
+Using [this filesystem diagram](https://swcarpentry.github.io/shell-novice/fig/filesystem-challenge.svg) , if pwd displays /Users/thing, what will ls -F ../backup display?
 
-../backup: No such file or directory
-2012-12-01 2013-01-08 2013-01-27
-2012-12-01/ 2013-01-08/ 2013-01-27/
-original/ pnas_final/ pnas_sub/
+1. `../backup: No such file or directory`
+2. `2012-12-01 2013-01-08 2013-01-27`
+3. `2012-12-01/ 2013-01-08/ 2013-01-27/`
+4. `original/ pnas_final/ pnas_sub/`
 
 
 
-## Exercise 2: Moving Files to a new folder** (specific for the lesson)
+## Exercise 2: Moving Files to a new folder
 
 After running the following commands,
 Jamie realizes that she put the files `sucrose.dat` and `maltose.dat` into the wrong folder.
@@ -44,10 +44,10 @@ When run in the alkanes directory, which ls command(s) will produce this output?
 
 ethane.pdb methane.pdb
 
-1. ls *t*ane.pdb
-2. ls *t?ne.*
-3. ls *t??ne.pdb
-4. ls ethane.*
+1. `ls *t*ane.pdb`
+2. `ls *t?ne.*`
+3. `ls *t??ne.pdb`
+4. `ls ethane.*`
 
 ## Exercise 4: Matching and Subtracting (https://swcarpentry.github.io/shell-novice/07-find.html)
 
