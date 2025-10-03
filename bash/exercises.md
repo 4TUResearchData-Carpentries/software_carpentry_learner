@@ -1,7 +1,7 @@
 # Participant Exercises in Software Carpentry: The Unix Shell
 
 
-**### Exercise 1: Relative Path Resolution** (specific for the lesson)
+## Exercise 1: Relative Path Resolution
 
 Using the filesystem diagram below, if pwd displays /Users/thing, what will ls -F ../backup display?
 
@@ -12,7 +12,7 @@ original/ pnas_final/ pnas_sub/
 
 
 
-**## Exercise 2: Moving Files to a new folder** (specific for the lesson)
+## Exercise 2: Moving Files to a new folder** (specific for the lesson)
 
 After running the following commands,
 Jamie realizes that she put the files `sucrose.dat` and `maltose.dat` into the wrong folder.
@@ -49,7 +49,7 @@ ethane.pdb methane.pdb
 3. ls *t??ne.pdb
 4. ls ethane.*
 
-### Exercise 4: Matching and Subtracting (https://swcarpentry.github.io/shell-novice/07-find.html)
+## Exercise 4: Matching and Subtracting (https://swcarpentry.github.io/shell-novice/07-find.html)
 
 The -v option to grep inverts pattern matching, so that only lines which do not match the pattern are printed. Given that, which of the following commands will find all .dat files in creatures except unicorn.dat? Once you have thought about your answer, you can test the commands in the shell-lesson-data/exercise-data directory.
 
