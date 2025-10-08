@@ -128,3 +128,4 @@ git status
 cat ~/.ssh/id_ed25519.pub 
 ssh -T git@github.com
 git remote add origin git@github.com:halfordd/recipes.git
+git remote -v
