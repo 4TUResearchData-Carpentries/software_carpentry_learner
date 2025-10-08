@@ -38,3 +38,4 @@ cat guacamole.md
 clear
 git status
 git add guacamole.md 
+git status
