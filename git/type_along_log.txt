@@ -116,3 +116,4 @@ ls
 ls -a
 ls -aF
 git status
+git add .gitignore
