@@ -123,3 +123,4 @@ ls
 clear
 git add a.png 
 git status
+git status --ignored
