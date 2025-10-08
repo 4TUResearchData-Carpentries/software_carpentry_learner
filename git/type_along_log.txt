@@ -18,3 +18,4 @@ git config --global core.autocrlf input
 git config --global init.defaultBranch main
 git config --list --global
 clear
+pwd
