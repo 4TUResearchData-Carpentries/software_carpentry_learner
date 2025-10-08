@@ -84,3 +84,4 @@ clear
 git show HEAD~2 guacamole.md 
 git show HEAD~2 guacamole.md 
 git show HEAD~2 guacamole.md 
+clear
