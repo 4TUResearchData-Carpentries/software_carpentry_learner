@@ -24,3 +24,4 @@ cd recipes/
 git status
 ls
 ls -a
+git init
