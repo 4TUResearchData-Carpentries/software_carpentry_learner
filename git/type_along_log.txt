@@ -121,3 +121,4 @@ git commit -m "Ignore png files and the pictures folder"
 git status
 ls
 clear
+git add a.png 
