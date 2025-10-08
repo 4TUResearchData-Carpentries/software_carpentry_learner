@@ -7,3 +7,4 @@ git
 git version
 git help
 clear
+git status
