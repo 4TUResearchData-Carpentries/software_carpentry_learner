@@ -113,3 +113,4 @@ git status
 nano .gitignore
 nano .gitignore
 ls
+ls -a
