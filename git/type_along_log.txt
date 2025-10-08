@@ -96,3 +96,4 @@ git restore guacamole.md
 cat guacamole.md 
 git status
 clear
+git log --oneline
