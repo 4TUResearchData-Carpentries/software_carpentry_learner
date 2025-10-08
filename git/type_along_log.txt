@@ -25,3 +25,4 @@ git status
 ls
 ls -a
 git init
+ls
