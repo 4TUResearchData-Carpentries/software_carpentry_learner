@@ -20,3 +20,4 @@ git config --list --global
 clear
 pwd
 mkdir recipes
+cd recipes/
