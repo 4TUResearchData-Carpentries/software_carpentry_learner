@@ -58,3 +58,4 @@ git commit -m "Add ingredients to guacamole recipe"
 clear
 git log
 nano guacamole.md 
+clear
