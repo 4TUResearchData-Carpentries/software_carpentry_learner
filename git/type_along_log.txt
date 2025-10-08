@@ -35,3 +35,4 @@ git status
 nano guacamole.md
 ls
 cat guacamole.md 
+clear
