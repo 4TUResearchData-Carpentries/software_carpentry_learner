@@ -88,3 +88,4 @@ clear
 git diff a85504f364212cebae9694c3fcf007d54fbf3675 guacamole.md 
 git log --oneline
 git diff a85504f guacamole.md 
+git history
