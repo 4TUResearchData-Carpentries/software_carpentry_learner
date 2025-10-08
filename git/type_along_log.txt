@@ -105,3 +105,4 @@ git status
 cat guacamole.md 
 clear
 ls
+mkdir pictures
