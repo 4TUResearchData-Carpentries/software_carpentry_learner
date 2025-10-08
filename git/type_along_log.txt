@@ -70,3 +70,5 @@ git status
 clear
 git log
 clear
+git log -1
+git log -2
