@@ -42,3 +42,4 @@ git status
 clear
 git status
 git commit -m "Create inital structure for a guacamole recipe"
+git status
