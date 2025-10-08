@@ -75,3 +75,4 @@ git log -2
 clear
 git log --oneline
 git log --oneline --graph
+nano guacamole.md 
