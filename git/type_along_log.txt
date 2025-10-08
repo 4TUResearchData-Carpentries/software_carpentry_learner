@@ -21,3 +21,4 @@ clear
 pwd
 mkdir recipes
 cd recipes/
+git status
