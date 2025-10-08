@@ -98,3 +98,4 @@ git status
 clear
 git log --oneline
 git restore -s a85504f guacamole.md 
+cat guacamole.md 
