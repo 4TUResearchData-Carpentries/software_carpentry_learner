@@ -48,3 +48,5 @@ ls
 nano guacamole.md 
 clea
 clear
+git status
+cat guacamole.md 
