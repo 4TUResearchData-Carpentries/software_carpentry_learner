@@ -11,3 +11,4 @@ git status
 git config list
 git config 
 git config --list
+git config --global user.name "Halford Dace"
