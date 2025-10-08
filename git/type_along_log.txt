@@ -14,3 +14,4 @@ git config --list
 git config --global user.name "Halford Dace"
 git config --global user.email "h.j.w.dace@tudelft.nl"
 git config --global core.editor nano
+git config --global core.autocrlf input
