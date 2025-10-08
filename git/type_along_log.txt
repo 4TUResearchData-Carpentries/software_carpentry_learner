@@ -4,3 +4,4 @@ cd
 pwd
 cd Desktop
 git
+git version
