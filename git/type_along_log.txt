@@ -3,3 +3,4 @@ pwd
 cd
 pwd
 cd Desktop
+git
