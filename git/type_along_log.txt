@@ -137,3 +137,6 @@ cd ..
 rm -rf recipes/
 git status
 git clone git@github.com:halfordd/recipes.git
+cd recipes
+ls
+ls -a
