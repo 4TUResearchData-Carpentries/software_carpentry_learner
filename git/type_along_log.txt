@@ -60,3 +60,4 @@ git log
 nano guacamole.md 
 clear
 git diff
+git add guacamole.md 
