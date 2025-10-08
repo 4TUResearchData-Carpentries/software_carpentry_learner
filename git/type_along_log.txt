@@ -10,3 +10,4 @@ clear
 git status
 git config list
 git config 
+git config --list
