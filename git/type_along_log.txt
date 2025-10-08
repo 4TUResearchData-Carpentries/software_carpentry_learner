@@ -55,3 +55,5 @@ git diff
 git commit -m "Add ingredients to guacamole recipe"
 git add guacamole.md 
 git commit -m "Add ingredients to guacamole recipe"
+clear
+git log
