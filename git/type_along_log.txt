@@ -141,3 +141,4 @@ cd recipes
 ls
 ls -a
 git status
+exit
