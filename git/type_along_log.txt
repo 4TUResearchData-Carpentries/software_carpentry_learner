@@ -29,3 +29,5 @@ ls
 ls -a
 ls -aF
 ls .git
+clear
+ls
