@@ -9,3 +9,4 @@ git help
 clear
 git status
 git config list
+git config 
