@@ -31,3 +31,4 @@ ls -aF
 ls .git
 clear
 ls
+git status
