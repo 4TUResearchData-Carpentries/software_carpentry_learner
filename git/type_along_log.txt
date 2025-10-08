@@ -78,3 +78,4 @@ git log --oneline --graph
 nano guacamole.md 
 clear
 git diff HEAD guacamole.md 
+git diff HEAD~1 guacamole.md 
