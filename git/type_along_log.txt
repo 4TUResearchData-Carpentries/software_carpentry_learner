@@ -134,3 +134,4 @@ git pull
 ls
 pwd
 cd ..
+rm -rf recipes/
