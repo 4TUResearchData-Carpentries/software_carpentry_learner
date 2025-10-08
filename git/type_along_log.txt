@@ -133,3 +133,4 @@ git push origin main
 git pull
 ls
 pwd
+cd ..
