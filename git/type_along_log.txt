@@ -51,3 +51,4 @@ clear
 git status
 cat guacamole.md 
 clear
+git diff
