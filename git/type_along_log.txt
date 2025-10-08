@@ -19,3 +19,4 @@ git config --global init.defaultBranch main
 git config --list --global
 clear
 pwd
+mkdir recipes
