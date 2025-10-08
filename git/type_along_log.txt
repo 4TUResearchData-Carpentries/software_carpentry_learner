@@ -101,3 +101,4 @@ git restore -s a85504f guacamole.md
 cat guacamole.md 
 git status
 git restore guacamole.md 
+git status
