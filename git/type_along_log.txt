@@ -125,3 +125,4 @@ git add a.png
 git status
 git status --ignored
 git status
+cat ~/.ssh/id_ed25519.pub 
