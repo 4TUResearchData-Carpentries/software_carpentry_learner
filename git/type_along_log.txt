@@ -6,3 +6,4 @@ cd Desktop
 git
 git version
 git help
+clear
