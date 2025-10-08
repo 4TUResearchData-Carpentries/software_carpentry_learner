@@ -45,3 +45,4 @@ git commit -m "Create inital structure for a guacamole recipe"
 git status
 git log
 ls
+nano guacamole.md 
