@@ -52,3 +52,4 @@ git status
 cat guacamole.md 
 clear
 git diff
+git commit -m "Add ingredients to guacamole recipe"
