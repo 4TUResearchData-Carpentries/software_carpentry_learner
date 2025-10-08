@@ -103,3 +103,4 @@ git status
 git restore guacamole.md 
 git status
 cat guacamole.md 
+clear
