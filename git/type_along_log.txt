@@ -39,3 +39,4 @@ clear
 git status
 git add guacamole.md 
 git status
+clear
