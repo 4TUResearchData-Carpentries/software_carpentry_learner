@@ -46,3 +46,5 @@ git status
 git log
 ls
 nano guacamole.md 
+clea
+clear
