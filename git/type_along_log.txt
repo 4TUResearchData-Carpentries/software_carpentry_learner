@@ -62,3 +62,4 @@ clear
 git diff
 git add guacamole.md 
 clear
+git diff
