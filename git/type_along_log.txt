@@ -73,3 +73,4 @@ clear
 git log -1
 git log -2
 clear
+git log --oneline
