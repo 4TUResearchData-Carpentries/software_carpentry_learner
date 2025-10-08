@@ -33,3 +33,4 @@ clear
 ls
 git status
 nano guacamole.md
+ls
