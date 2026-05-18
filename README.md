@@ -2,41 +2,40 @@
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-## Branching policy.
-
-This is the *main* branch.  It does not correspond to any actual run of this course.  You probably want to be looking at the branch corresponding to the actual run of the course that you are attending.
-
 ## Content
-Collection of learner materials for a Software Carpentries workshop. These materials are adaptations from the lessons provided by the [Software Carpentry](https://software-carpentry.org/lessons/).
 
 Course materials are divided into the following folders:
 
-### Python
-
-The python/ folder contains code and sample data for the Python course, and Jupyter Notebook samples that reflect what the instructor is typing throughout the class.  These include the folders:
-
-- **code** In-class example code
-- **data** Sample data for the data analysis and visualisation part of the course
-- **solutions** Solutions to class exercises
-- The files **exercises_day1.ipynb** and **exercises_day2.ipynb**, which are the Jupyter notebooks for you to use in the class sessions.
-
 ### Bash
 
-The bash/ folder contains exercises and solutions, and the type-along log, for the Unix Shell day of the course, including:
+The `bash/` folder contains:
 
-- **exercises.md** Exercises associated with the Software Carpentries Unix Shell course
-- **solutions.md** Solutions to the exercises above, and
-- **type_along_log.txt** The log of the comadnds the instructor uses, that will be filled as the day goes along.
+- [**type_along_log.txt**](https://github.com/4TUResearchData-Carpentries/software_carpentry_learner/blob/2026-05-19-tudelft/bash/type_along_log.txt): The **log of the commands** the instructor uses during the lesson.
+- [**exercises.md**](https://github.com/4TUResearchData-Carpentries/software_carpentry_learner/blob/2026-05-19-tudelft/bash/exercises.md): **Exercises** for the Unix Shell part of the workshop.
+- [**solutions.md**](https://github.com/4TUResearchData-Carpentries/software_carpentry_learner/blob/2026-05-19-tudelft/bash/solutions.md): **Solutions** to the exercises above.
+
+  
+### Python
+
+The `python/` folder contains:
+
+- **python1.ipynb**: The **notebook** the instructor uses during the lesson of **Day 1**. This notebook is created during the lesson.
+- **python2.ipynb**: The **notebook** the instructor uses during the lesson of **Day 2**. This notebook is created during the lesson.
+- [**exercises_day1.ipynb**](https://github.com/4TUResearchData-Carpentries/software_carpentry_learner/blob/2026-05-19-tudelft/python/exercises_day1.ipynb): The notebook with the **exercises** used in **Day 1**.
+- [**exercises_day2.ipynb**](https://github.com/4TUResearchData-Carpentries/software_carpentry_learner/blob/2026-05-19-tudelft/python/exercises_day2.ipynb): The notebook with the **exercises** used in **Day 2**.
+- [**solutions**](https://github.com/4TUResearchData-Carpentries/software_carpentry_learner/tree/2026-05-19-tudelft/python/solutions): Code with the **solutions** of `exercises_day1.ipynb` and `exercises_day2.ipynb`. There are more code scripts that you can check out, that are not used during the in-person workshop.
+- [**data**](https://github.com/4TUResearchData-Carpentries/software_carpentry_learner/tree/2026-05-19-tudelft/python/data): The `data` directory that is used during the workshop.
+- [**code**](https://github.com/4TUResearchData-Carpentries/software_carpentry_learner/tree/2026-05-19-tudelft/python/code): The `code` directory from the Carpentry materials. This is **not used** during the in-person workshop. These codes are meant to be used in the [**Command-line programs**](https://swcarpentry.github.io/python-novice-inflammation/12-cmdline.html) of the lesson.
+
 
 ### Git
 
-The git/ folder contains exercises and solutions, and the type-along log, for the Version Control with Git day of the course, including:
+The `git/` folder contains:
 
-- **exercises.md** Exercises associated with the Software Carpentries Version COntrol course
-- **solutions.md** Solutions to the exercises above, and
-- **type_along_log.txt** The log of the comadnds the instructor uses, that will be filled as the day goes along.
+- [**type_along_log.txt**](https://github.com/4TUResearchData-Carpentries/software_carpentry_learner/blob/2026-05-19-tudelft/git/type_along_log.txt): The **log of the commands** the instructor uses during the lesson.
 
 ## Feedback
+
 Feel free to use these materials and I welcome any feedback (mistakes, suggestions) in the form of an issue.
 
 ## License
