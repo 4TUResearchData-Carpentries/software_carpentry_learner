@@ -1,2 +1,3 @@
 mkdir recipes
 ls
+cat swc-git/git/type_along_log.txt 
