@@ -29,3 +29,4 @@ git status
 git commit -m "Create guacamole.md"
 git status
 ls
+cat guacamole.md 
