@@ -55,3 +55,196 @@ ls -a
 git status
 git log --oneline
 cat guacamole.md 
+git show 80649df:guacamole.md
+git log --oneline
+git show HEAD~1:guacamole.md
+git diff HEAD HEAD~1
+git diff HEAD HEAD-1
+git show HEAD -1
+cat guacamole.md 
+git status
+nano guacamole.md 
+git status
+git diff
+git add guacamole.md 
+git status
+git diff --staged
+git diff
+git diff --staged
+git status
+git commit -m "Edit ingredients in guacamole.md"
+git log --online
+git log --oneline
+mkdir photos
+git status
+rm photos
+rm -rf photos
+ls
+git status
+nano guacamole.md 
+cat guacamole.md 
+git status
+git restore guacamole.md 
+cat guacamole.md 
+git status
+nano guacamole.md 
+cat guacamole.md 
+git status
+git add guacamole.md 
+git status
+git commit -m "Add instructions to guacamole.md"
+git status
+git log --oneline
+cat guacamole.md 
+touch hummus.md
+git status
+nano hummus.md 
+cat hummus.md 
+ls
+git status
+git log --oneline
+git add hummus.md 
+git status
+git rm --cached hummus.md 
+ls
+git status
+nano hummus.md 
+git add hummus.md 
+cat hummus.md 
+git commit -m "Create hummus.md"
+git log --oneline
+git grep hummus
+git grep "hummus"
+git grep "guacamole"
+git grep -h
+git log hummus.md
+git log guacamole.md
+cat hummus.md 
+git status
+nano hummus.md 
+cat hummus.md 
+git status
+git add hummus.md 
+git status
+git commit -m "dd sections to hummus.md"
+git log --oneline
+git commit --ammend
+git commit --amend
+git log --oneline
+git status
+nano hummus.md 
+git add hummus.md 
+git commit -m "Add ingredients to hummus.md"
+git log --oneline
+git status
+cat hummus.md 
+git reset --soft HEAD~2
+ls
+cat hummus.md 
+git log --oneline
+git status
+cat hummus.md 
+git rm hummus.md 
+rm hummus.md 
+ls
+git log --oneline
+ls
+git status
+git rm hummus.md 
+ls
+git status
+git commit -m "Delete hummus.md"
+git log --oneline
+git status
+ls
+ls
+clear
+git status
+ls
+git log --oneline
+mkdir photos
+git status
+ls
+touch .gitignore
+ls
+ls -a
+nano .gitignore 
+git status
+ls photos/
+touch photos/avocado.jpg
+touch photos/chili.jpg
+ls photos
+git status
+git add .gitignore
+git status
+git commit -m "Ignore photos/"
+git status
+cd photos/
+ls
+touch avocado_quality.txt
+nano avocado_quality.txt 
+git status
+cd ..
+ls
+git status
+nano .gitignore
+git status
+git add photos/avocado_quality.txt 
+git status
+git commit -m "Unignore photos/avocado_quality.txt"
+git status
+git add .gitignore 
+git commit -m "Edit .gitignore"
+git status
+git log --oneline
+cat .gitignore
+ls
+git status
+ls ~/.ssh
+cd ~
+ls -a
+ssh-keygen -t ed25519 -C "flower.of.the.alps@gmail.com"
+ls ~/.ssh
+vi Contacts/
+cd .ssh
+vi config 
+ls
+rm -rf *
+ssh-keygen -t ed25519 -C "flower.of.the.alps@gmail.com"
+ls
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_ed25519
+ls
+cat id_ed25519.pub 
+ssh -T git@github.com
+cd ~/Desktop/recipes/
+ls
+git status
+git remote -v
+git remote add origin git@github.com:HeatherAn/recipes.git
+git remote -v
+git push -u origin main
+ls
+touch README.md
+nano 
+nano README.md 
+cat README.md 
+git add README.md 
+git commit -m "Create local README.md"
+git log --oneline
+git pull origin main
+ls
+cat README.md 
+nano README.md 
+git status
+git add README.md 
+git commit -m "Edit README.md"
+cat README.md 
+git push origin main
+cd ..
+cd swc-git/
+sl
+ls
+cd git/
+sl
+ls
