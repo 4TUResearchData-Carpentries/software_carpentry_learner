@@ -1,18 +1,1 @@
-ls
-cd swc-git/
-cd ..
-ls
-clear
-ls
-ls swc-git/
-ls
-cd gi
-cd swc-git/
-ls
-cd git/
-ls
-cat type_along_log.txt 
-cd ..
-cd 
-cd Desktop/
-ls
+
