@@ -30,3 +30,27 @@ git commit -m "Create guacamole.md"
 git status
 ls
 cat guacamole.md 
+git log
+git log --oneline
+nano guacamole.md 
+cat guacamole.md 
+ls
+git status
+git add guacamole.md 
+git status
+git commit -m "Add sections to guacamole.md"
+git status
+git log
+git log --oneline
+ls
+nano guacamole.md 
+git add guacamole.md 
+nano guacamole.md 
+git status
+git add guacamole.md 
+git commit -m "Add ingredients to guacamole.md"
+git status
+git log --oneline
+ls -a
+git status
+git log --oneline
