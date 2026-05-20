@@ -54,3 +54,4 @@ git log --oneline
 ls -a
 git status
 git log --oneline
+cat guacamole.md 
