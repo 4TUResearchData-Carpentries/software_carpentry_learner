@@ -1,2 +1,31 @@
 
 clear
+cat swc-git/git/type_along_log.txt 
+git --version
+git config --global user.name "Heather Andrews"
+git config --global user.email "flower.of.the.alps@gmail.com"
+git config --global core.autocrlf true
+# git config --global core.autocrlf input
+git config --global core.editor "nano -w" 
+git config --global init.defaultBranch main
+git config --global --list
+git config -h
+git help
+mkdir recipes
+ls
+cd recipes
+pwd
+ls -a
+git init
+ls
+ls -a
+git status
+touch guacamole.md
+ls
+ls -a
+git status
+git add guacamole.md 
+git status
+git commit -m "Create guacamole.md"
+git status
+ls
